@@ -7,7 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline, make_pipeline
 
 #st.set_page_config(layout="wide")
-ch = pd.read_csv('https://raw.githubusercontent.com/kunal-mallick/Churn_Prediction/main/Data%20Preprocessing%20%26%20EDA/eda.csv')
+ch = pd.read_csv('https://raw.githubusercontent.com/Abhishek-Bhonde/Churn_Prediction/main/Data%20Preprocessing%20%26%20EDA/eda.csv')
 x = ch.iloc[:,[1,2,3,5,7,8,14,70,71,72,73]]
 
 load = open('model.pkl','rb')
